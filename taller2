@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "es">
+<meta charset = "utf-8"/>
+<head>
+	<title>Formulario HTML</title>
+</head>
+<body>
+
+	<form method = "GET" action = "calculadora.php">
+		Primer numero
+		<input type = "int" name = "num1" autofocus><br>
+		Segundo numero
+		<input type = "int" name = "num2" autofocus><br>		
+
+		Operacion
+		<select name = "operacion">
+			<option value = "suma"> + </option>
+			<option value = "rest"> - </option>
+			<option value = "mult"> * </option>
+			<option value = "div"> / </option>
+			<option value = "mod"> % </option>
+		</select><br>
+
+		
+		
+		<input type = "submit" value = "Enviar...">
+
+
+
+
+	</form>
+
+	
+
+</body>
+</html>
